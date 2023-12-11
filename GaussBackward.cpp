@@ -37,7 +37,7 @@ int main()
         cout << endl;
     }
 
-    //Gauss Backward
+    // Gauss Backward
     y = a[n / 2][1];
     cout << "\n y: " << y << endl;
     u = (x - a[n / 2][0]) / (a[1][0] - a[0][0]);
@@ -46,8 +46,8 @@ int main()
 
     for (i = 2; i <= n; i++)
     {
-        y = y + (u1 / fact) * a[(n - 2) / i][i];nn                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-        cout << a[(n - 1) / i][i] << "\t";
+        y = y + (u1 / fact) * a[(n - 2) / i][i];
+        cout<< a[(n - 1) / i][i] << "\t";
         fact = fact * i;
         if (i % 2 == 0)
         {
